@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Siginup</title>
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="dist/favicon.ico" type="image/x-icon">
+    <script src="dis/js/bootstrap.js"></script>
+</head>
+<body>
+    <form class="form-signin" action="/signup" method="POST">
+        <img class="mb-4" src="img/bootstrap-solid.svg" alt="" width="72" height="72" >
+        <h1 class="h3 mb-3 font-weight-normal">Signup to My Newsletter!</h1>
+        <input type="text"  class="form-control top" name="firstName" placeholder="First Name" required autofocus>
+        <input type="text"  class="form-control middle" name="lastName"placeholder="Last Name" required autofocus>
+        <input type="email" class="form-control bottom" name="email" placeholder="Email address" required autofocus>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Me Up!</button>
+        <p class="mt-5 mb-3 text-muted">&copy; Smart Developer</p>
+    </form>
+</body>
+</html>
